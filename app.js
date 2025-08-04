@@ -8,6 +8,7 @@ function adicionarAmigo(){
     if(nome === ""){
         alert("Por favor, insira um nome.");
     } else{
+        nome = nome[0].toUpperCase() + nome.slice(1).toLowerCase(); // Primeira letra do nome maiúscula
         amigos.push(nome);
 
         // console.log(amigo); // Verifica se o nome foi adicionado corretamente
