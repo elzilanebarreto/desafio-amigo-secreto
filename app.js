@@ -18,7 +18,7 @@ function adicionarAmigo(){
 }
 
 function atualizarListaAmigos() {
-    let listaDeAmigos = document.querySelector("#listaAmigos"); // Lista do HTML
+    let listaDeAmigos = document.getElementById("listaAmigos"); // Lista do HTML
     listaDeAmigos.innerHTML = ""; // Limpa a lista antes de adicionar novos elementos.
 
     for(let i = 0; i < amigos.length; i++){
@@ -36,7 +36,9 @@ function sortearAmigo() {
         let indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
         let amigoSorteado = amigos[indiceAleatorio];
-        //console.log(amigoSorteado); // Verificar quem foi sorteado
+        // console.log(amigoSorteado); // Verificar quem foi sorteado
+
+        document.getElementById("listaAmigos").innerHTML = ""; // "Tira" a lista quando sorteado
 
         let resultado = document.getElementById("resultado"); //Lista do HTML
         resultado.innerHTML = `O amigo secreto sorteado é: ${amigoSorteado}`;
