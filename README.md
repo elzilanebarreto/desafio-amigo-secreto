@@ -24,7 +24,7 @@ Visualizar a lista de amigos adicionados.
 
 ## Demonstração do Projeto
 <div align="center">
-    <img src="./assets/esssse.gif" alt="Amigo Secreto" width="300">
+    <img src="./assets/funcionamento.gif" alt="Amigo Secreto" width="300">
 </div>
 
 ## Instalação 🛠️
