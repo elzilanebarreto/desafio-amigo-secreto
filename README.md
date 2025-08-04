@@ -22,6 +22,11 @@ Visualizar a lista de amigos adicionados.
 * Sortear aleatoriamente um amigo da lista.
 * Ao sortear, a lista desaparece e apenas o nome sorteado é exibido.
 
+## Demonstração do Projeto
+<div align="center">
+    <img src="./assets/esssse.gif" alt="Amigo Secreto" width="300">
+</div>
+
 ## Instalação 🛠️
 
 1. **Clone o repositório:**
